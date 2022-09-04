@@ -1,123 +1,128 @@
-.parent{
-     width: 100%;
-    /* height: 100vh; */
-   
+.parent {
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(52, 51, 51);
 }
-body{
-    font-family: Roboto,Robotodraft,Arial, Helvetica, sans-serif;
+
+body {
+    font-family: Roboto, Robotodraft, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-.child{
-    /* height: ; */
-    /* width: 80vw; */
-    /* display: flex; */
-       /* flex-direction: row; */
-       margin-top: 10px;
-    
+
+.child {
+    margin-top: 10px;
+
 }
-.childa{
+
+.childa {
     position: relative;
     display: flex;
     flex-direction: row;
     gap: 3px;
 
 }
-.tigerimg{
-   position: relative;
-   width: 331px;
-    height: 188px;
-}
-.madhuriimg{
+
+.tigerimg {
     position: relative;
     width: 331px;
     height: 188px;
 }
-.sachinimg{
+
+.madhuriimg {
     position: relative;
     width: 331px;
     height: 188px;
 }
-.dhoniimg{
+
+.sachinimg {
     position: relative;
     width: 331px;
     height: 188px;
 }
-.kartikimg{
+
+.dhoniimg {
     position: relative;
     width: 331px;
     height: 188px;
 }
-.saniyaimg{
+
+.kartikimg {
     position: relative;
     width: 331px;
     height: 188px;
 }
-.tiger{
+
+.saniyaimg {
+    position: relative;
+    width: 331px;
+    height: 188px;
+}
+
+.tiger {
     position: absolute;
     top: 154px;
     color: aliceblue;
     left: 10px;
     font-size: 16px;
 }
-.pictures{
-    border: 1px solid black ;
+
+.pictures {
+    border: 1px solid black;
     border-radius: 10px;
     width: 328px;
     height: 180px;
-/* object-fit: cover; */
 }
-.bottom{
+
+.bottom {
     display: flex;
     flex-direction: row;
 }
-.left{
+
+.left {
     position: relative;
     left: -237px;
     color: white;
 }
-.center{
+
+.center {
     color: white;
     position: relative;
     right: 85px;
-    /* padding: 14px; */
     top: -4px;
-    /* display: flex; */
 
 }
- 
 
-.righticon{
+
+.righticon {
     display: flex;
     flex-direction: row;
     gap: 19px;
     position: relative;
     left: 211px;
     color: white;
-    /* padding: 5px; */
     top: 8px;
     font-size: 18px;
 }
-.btn{
+
+.btn {
     cursor: pointer;
     border: none;
 
     border-radius: 36px;
-    width:37px;
+    width: 37px;
     padding: 10px;
     background-color: black;
     color: white;
-    /* background-color: rgb(57, 112, 160); */
-    /* background-color: rgb(98 103 107); */
-    background-color:rgb(66 , 70 , 74);
+    background-color: rgb(66, 70, 74);
 }
-.btn1{
-   
+
+.btn1 {
+
     padding: 4px;
     width: 36px;
     border-radius: 20px;
@@ -126,22 +131,14 @@ body{
 }
 
 
- 
-.mic{
-    /* border: 1px solid black; */
-    /* border-radius: 20px; */
-    /* height: 28px; */
-    /* width: 29px; */
-    /* display: inline-block; */
-    /* padding: 10px; */
+
+.mic {
     background-color: red;
 }
-.audio.btn{
+
+.audio.btn {
     position: relative;
     bottom: 180px;
-    /* left: 284px; */
-    /* position: relative; */
-    /* bottom: 180px; */
     left: 292px;
     font-size: 12px;
     width: 27px;
@@ -149,7 +146,7 @@ body{
     background-color: #9d8e8e;
 }
 
-.btn3{
+.btn3 {
     cursor: pointer;
     position: relative;
     top: 6px;
@@ -161,8 +158,3 @@ body{
     background-color: red;
     left: 10px;
 }
-    
-
-
-
-
